@@ -4,7 +4,7 @@
 name: Aleksandar Matovic React Build CI
 
 on:
-workflow_dispatch:
+  workflow_dispatch:
   pull_request:
     branches: [ "main" ]
     types: ["merged","closed"]
